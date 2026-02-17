@@ -2,14 +2,14 @@ import { SectionTitle } from './ui/SectionTitle';
 import { SectionBackground } from './ui/SectionBackground';
 
 const badges = [
-  {
-    id: 'Certified-Ethical-Hacker',
-    platform: 'EC-Council',
-    title: 'Certified Ethical Hacker',
-    image: '/assets/logos/CEH_2E345519D3F7.png',
-    profile:
-      'https://www.credly.com/badges/acc5fa97-0b4e-47c2-bc59-30e2d2a0161a/public_url',
-  },
+  // {
+  //   id: 'Certified-Ethical-Hacker',
+  //   platform: 'EC-Council',
+  //   title: 'Certified Ethical Hacker',
+  //   image: '/assets/logos/CEH_2E345519D3F7.png',
+  //   profile:
+  //     'https://www.credly.com/badges/acc5fa97-0b4e-47c2-bc59-30e2d2a0161a/public_url',
+  // },
 
   // {
   //   id: 'github-foundations',
@@ -34,20 +34,20 @@ const badges = [
   //   image: 'https://assets.leetcode.com/static_assets/others/25100.gif',
   //   profile: 'https://leetcode.com/u/adhilunnikrishnan/',
   // },
-  // {
-  //   id: 'leetcode-top-sql-50',
-  //   platform: 'LeetCode',
-  //   title: 'Top SQL 50',
-  //   image: 'https://assets.leetcode.com/static_assets/others/Top_SQL_50.gif',
-  //   profile: 'https://leetcode.com/u/adhilunnikrishnan/',
-  // },
-  // {
-  //   id: 'leetcode-leetcode-75',
-  //   platform: 'LeetCode',
-  //   title: 'LeetCode 75',
-  //   image: 'https://assets.leetcode.com/static_assets/others/LeetCode_75.gif',
-  //   profile: 'https://leetcode.com/u/adhilunnikrishnan/',
-  // },
+  {
+    id: 'leetcode-top-sql-50',
+    platform: 'LeetCode',
+    title: 'Top SQL 50',
+    image: 'https://assets.leetcode.com/static_assets/others/Top_SQL_50.gif',
+    profile: 'https://leetcode.com/u/adhilunnikrishnan/',
+  },
+  {
+    id: 'leetcode-leetcode-75',
+    platform: 'LeetCode',
+    title: 'LeetCode 75',
+    image: 'https://assets.leetcode.com/static_assets/others/LeetCode_75.gif',
+    profile: 'https://leetcode.com/u/adhilunnikrishnan/',
+  },
   {
     id: 'github-shark',
     platform: 'GitHub',

@@ -18,20 +18,20 @@ export const services: ServiceItem[] = [
     color: 'bg-blue-500',
     image: '/assets/web dev.png',
   },
-  {
-    icon: MonitorPlay,
-    title: 'Web Development Training',
-    description:
-      'Providing MERN, MEAN, Nest.js, Angular, and Django tutoring, YouTube lessons, and professional training at G-TECH',
-    color: 'bg-purple-500',
-    image: '/assets/training.png',
-  },
-  {
-    icon: Lightbulb,
-    title: 'Graphic Design',
-    description:
-      'Creating visually compelling graphics, logos, and branding materials to elevate your business presence.',
-    color: 'bg-yellow-500',
-    image: '/assets/graphic design.png',
-  },
+//   {
+//     icon: MonitorPlay,
+//     title: 'Web Development Training',
+//     description:
+//       'Providing MERN, MEAN, Nest.js, Angular, and Django tutoring, YouTube lessons, and professional training at G-TECH',
+//     color: 'bg-purple-500',
+//     image: '/assets/training.png',
+//   },
+//   {
+//     icon: Lightbulb,
+//     title: 'Graphic Design',
+//     description:
+//       'Creating visually compelling graphics, logos, and branding materials to elevate your business presence.',
+//     color: 'bg-yellow-500',
+//     image: '/assets/graphic design.png',
+//   },
 ];

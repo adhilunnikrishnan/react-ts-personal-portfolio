@@ -70,13 +70,13 @@ export const skills: SkillItem[] = [
     color: '#ffffff',
     url: 'https://nextjs.org/',
   },
-  {
-    name: 'Angular',
-    icon: SiAngular,
-    color: '#dd0031',
-    url: 'https://angular.io/',
-  },
-  { name: 'NX Monorepo', icon: SiNx, color: '#ffffff', url: 'https://nx.dev/' },
+  // {
+  //   name: 'Angular',
+  //   icon: SiAngular,
+  //   color: '#dd0031',
+  //   url: 'https://angular.io/',
+  // },
+  // { name: 'NX Monorepo', icon: SiNx, color: '#ffffff', url: 'https://nx.dev/' },
   {
     name: 'Tailwind CSS',
     icon: SiTailwindcss,
@@ -101,12 +101,12 @@ export const skills: SkillItem[] = [
     color: '#e0234e',
     url: 'https://nestjs.com/',
   },
-  {
-    name: 'Python',
-    icon: SiPython,
-    color: '#3776ab',
-    url: 'https://www.python.org/',
-  },
+  // {
+  //   name: 'Python',
+  //   icon: SiPython,
+  //   color: '#3776ab',
+  //   url: 'https://www.python.org/',
+  // },
   {
     name: 'MongoDB',
     icon: SiMongodb,
@@ -132,12 +132,12 @@ export const skills: SkillItem[] = [
     color: '#2496ed',
     url: 'https://www.docker.com/',
   },
-  {
-    name: 'Kubernetes',
-    icon: SiKubernetes,
-    color: '#326ce5',
-    url: 'https://kubernetes.io/',
-  },
+  // {
+  //   name: 'Kubernetes',
+  //   icon: SiKubernetes,
+  //   color: '#326ce5',
+  //   url: 'https://kubernetes.io/',
+  // },
   {
     name: 'AWS',
     icon: FaAws,
@@ -151,12 +151,12 @@ export const skills: SkillItem[] = [
     color: '#ffffff',
     url: 'https://github.com/',
   },
-  {
-    name: 'Bitbucket',
-    icon: SiBitbucket,
-    color: '#26890c',
-    url: 'https://bitbucket.org/',
-  },
+  // {
+  //   name: 'Bitbucket',
+  //   icon: SiBitbucket,
+  //   color: '#26890c',
+  //   url: 'https://bitbucket.org/',
+  // },
   {
     name: 'VS Code',
     icon: VscVscode,
@@ -175,28 +175,28 @@ export const skills: SkillItem[] = [
     color: '#f24e1e',
     url: 'https://www.figma.com/',
   },
-  {
-    name: 'Photoshop',
-    icon: SiAdobephotoshop,
-    color: '#31A8FF',
-    url: 'https://www.adobe.com/products/photoshop.html',
-  },
-  {
-    name: 'Illustrator',
-    icon: SiAdobeillustrator,
-    color: '#FF9A00',
-    url: 'https://www.adobe.com/products/illustrator.html',
-  },
-  {
-    name: 'Adobe XD',
-    icon: SiAdobexd,
-    color: '#FF61F6',
-    url: 'https://www.adobe.com/products/xd.html',
-  },
-  {
-    name: 'Premiere Pro',
-    icon: SiAdobepremierepro,
-    color: '#9999FF',
-    url: 'https://www.adobe.com/products/premiere.html',
-  },
+//   {
+//     name: 'Photoshop',
+//     icon: SiAdobephotoshop,
+//     color: '#31A8FF',
+//     url: 'https://www.adobe.com/products/photoshop.html',
+//   },
+//   {
+//     name: 'Illustrator',
+//     icon: SiAdobeillustrator,
+//     color: '#FF9A00',
+//     url: 'https://www.adobe.com/products/illustrator.html',
+//   },
+//   {
+//     name: 'Adobe XD',
+//     icon: SiAdobexd,
+//     color: '#FF61F6',
+//     url: 'https://www.adobe.com/products/xd.html',
+//   },
+//   {
+//     name: 'Premiere Pro',
+//     icon: SiAdobepremierepro,
+//     color: '#9999FF',
+//     url: 'https://www.adobe.com/products/premiere.html',
+//   },
 ];

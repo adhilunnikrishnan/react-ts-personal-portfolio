@@ -23,7 +23,7 @@ export default function ContactCards() {
   );
   const confettiRef = useRef(null);
   const email = 'adhilunnikrishnanofficial@gmail.com';
-  const whatsappNumber = '919747733770';
+  const whatsappNumber = '917907933057';
   const whatsappMessage = "Hi! I'd like to get in touch with you.";
 
   const handleCopyEmail = async () => {

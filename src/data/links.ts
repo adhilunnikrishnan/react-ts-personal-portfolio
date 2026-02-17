@@ -35,18 +35,18 @@ export const socialLinks: SocialLinkItem[] = [
     label: 'LinkedIn',
     iconKey: 'linkedin',
   },
+  // {
+  //   href: '',
+  //   label: 'YouTube',
+  //   iconKey: 'youtube',
+  // },
+  // {
+  //   href: '',
+  //   label: 'Instagram',
+  //   iconKey: 'instagram',
+  // },
   {
-    href: 'https://www.youtube.com/@eldoradotechie',
-    label: 'YouTube',
-    iconKey: 'youtube',
-  },
-  {
-    href: 'https://www.instagram.com/abubakthiyar',
-    label: 'Instagram',
-    iconKey: 'instagram',
-  },
-  {
-    href: 'https://wa.me/919747733770',
+    href: 'https://wa.me/917907933057',
     label: 'WhatsApp',
     iconKey: 'whatsapp',
   },

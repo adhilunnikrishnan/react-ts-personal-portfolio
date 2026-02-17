@@ -88,7 +88,7 @@ export function Contact() {
                     </span>
                   </a>
                   <a
-                    href="tel:+919747733770"
+                    href="tel:+917907933057"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group/link flex items-center gap-3 sm:gap-4 p-2.5 sm:p-3 rounded-lg sm:rounded-xl active:bg-green-50 dark:active:bg-green-900/20 hover:bg-green-50 dark:hover:bg-green-900/20 transition-all duration-300 transform active:translate-x-1 md:hover:translate-x-2 active:scale-[0.98]"
@@ -97,10 +97,10 @@ export function Contact() {
                       <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-green-600 dark:text-green-400" />
                     </div>
                     <span className="text-base sm:text-base md:text-lg text-gray-700 dark:text-gray-300 group-active/link:text-green-600 dark:group-active/link:text-green-400 md:group-hover/link:text-green-600 dark:md:group-hover/link:text-green-400 transition-colors duration-300 font-medium">
-                      +91 9747733770
+                      +91 7907933057
                     </span>
                   </a>
-                  <a
+                  {/* <a
                     href="https://www.instagram.com/adhilunnikrishnan/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -112,7 +112,7 @@ export function Contact() {
                     <span className="text-base sm:text-base md:text-lg text-gray-700 dark:text-gray-300 group-active/link:text-pink-600 dark:group-active/link:text-pink-400 md:group-hover/link:text-pink-600 dark:md:group-hover/link:text-pink-400 transition-colors duration-300 font-medium">
                       instagram.com/adhilunnikrishnan
                     </span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

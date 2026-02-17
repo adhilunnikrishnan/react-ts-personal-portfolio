@@ -33,7 +33,6 @@ export function StructuredData() {
         'MERN Stack',
         'MEAN Stack',
         'Nest.js',
-        'Angular',
         'React.js',
         'Next.js',
         'Node.js',
@@ -51,7 +50,7 @@ export function StructuredData() {
       '@type': 'ProfessionalService',
       name: 'Adhil Unnikrishnan P - Full Stack Development Services',
       description:
-        'Full Stack Developer (MERN, MEAN, Nest.js) and Technical Trainer specializing in React, Next.js, Node.js, Nest.js, TypeScript, MongoDB, and PostgreSQL.',
+        'Full Stack Developer (MERN, MEAN, Nest.js) specializing in React, Next.js, Node.js, Nest.js, TypeScript, MongoDB, and PostgreSQL.',
       provider: {
         '@type': 'Person',
         name: 'Adhil Unnikrishnan P',

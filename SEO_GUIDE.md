@@ -155,7 +155,7 @@ Edit `src/components/StructuredData.tsx` and add:
 ## 📝 Additional Tips
 
 1. **Content is King**: Keep adding quality content, projects, and updates
-2. **Keywords**: Naturally use relevant keywords in your content (Full Stack Developer, MERN, MEAN, Nest.js, Angular, React, etc.)
+2. **Keywords**: Naturally use relevant keywords in your content (Full Stack Developer, MERN, MEAN, Nest.js, React, etc.)
 3. **Internal Linking**: Your navigation already provides good internal linking
 4. **External Links**: Link to your GitHub, social profiles (already done)
 5. **Blog/Articles**: Consider adding a blog section to increase content and keyword opportunities

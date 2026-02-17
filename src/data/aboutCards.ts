@@ -16,7 +16,7 @@ export const whoAmICard: AboutCardItem = {
   description: [
     'Full Stack Developer with hands-on experience in scalable web applications.',
     'Passionate about clean architecture and modern JavaScript technologies.',
-    'Technical trainer focusing on simplifying complex concepts.',
+    'focusing on simplifying complex concepts.',
   ],
   color: 'bg-blue-600',
 };
@@ -38,7 +38,6 @@ export const myGoalsCard: AboutCardItem = {
   description: [
     'Develop impactful technology products for real-world challenges.',
     'Deepen expertise in cloud-native development and DevOps.',
-    'Mentor emerging developers through community engagement.',
   ],
   color: 'bg-green-600',
 };

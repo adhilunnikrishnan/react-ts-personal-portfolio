@@ -13,6 +13,13 @@ const ASCII_ART = `
 ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝╚══════╝
 `;
 
+const placeholderPrompts = [
+  "try me! type 'help' →",
+  "whoami • status • focus",
+  "click here & explore",
+  "type a command ↓",
+];
+
 interface LogEntry {
   id: string | number;
   message: React.ReactNode;
@@ -70,12 +77,6 @@ export function TerminalWindow() {
   const scrollRef = useRef<HTMLDivElement>(null);
   const isInView = useInView(containerRef, { once: false, margin: '-30%' });
 
-  const placeholderPrompts = [
-    "try me! type 'help' →",
-    "whoami • status • focus",
-    "click here & explore",
-    "type a command ↓",
-  ];
 
   const getLocalTime = (date: Date = new Date()) => {
     const h = date.getHours().toString().padStart(2, '0');

@@ -14,19 +14,10 @@ import {
   SiExpress,
   SiPostgresql,
   SiPrisma,
-  SiPython,
   SiDocker,
   SiRedis,
   SiPostman,
-  SiAdobephotoshop,
-  SiAdobeillustrator,
-  SiAdobexd,
-  SiAdobepremierepro,
-  SiAngular,
-  SiKubernetes,
-  SiNx,
   SiNestjs,
-  SiBitbucket,
 } from 'react-icons/si';
 import { FaNodeJs, FaAws } from 'react-icons/fa6';
 import { VscVscode } from 'react-icons/vsc';

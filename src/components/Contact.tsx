@@ -1,7 +1,7 @@
 import { lazy, Suspense } from 'react';
 import { SectionTitle } from './ui/SectionTitle';
 import { SectionBackground } from './ui/SectionBackground';
-import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from 'react-icons/fa6';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa6';
 import { SiLeetcode } from 'react-icons/si';
 import { Phone } from 'lucide-react';
 

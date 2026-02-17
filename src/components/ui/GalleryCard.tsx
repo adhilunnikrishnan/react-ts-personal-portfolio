@@ -13,10 +13,11 @@ interface GalleryCardProps {
 }
 
 function useIsMobile() {
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(() => 
+    typeof window !== 'undefined' ? window.matchMedia('(hover: none)').matches : false
+  );
   useEffect(() => {
     const mq = window.matchMedia('(hover: none)');
-    setIsMobile(mq.matches);
     const handler = () => setIsMobile(mq.matches);
     mq.addEventListener('change', handler);
     return () => mq.removeEventListener('change', handler);
@@ -56,13 +57,15 @@ export function GalleryCard({
     if (!isMobile) return;
     if (isInView) {
       const t = setTimeout(
-        () => setAutoShowOverlay(true),
+        () => {
+          if (!autoShowOverlay) setAutoShowOverlay(true);
+        },
         MOBILE_AUTO_SHOW_DELAY_MS
       );
       return () => clearTimeout(t);
     }
-    setAutoShowOverlay(false);
-  }, [isMobile, isInView]);
+    if (autoShowOverlay) queueMicrotask(() => setAutoShowOverlay(false));
+  }, [isMobile, isInView, autoShowOverlay]);
 
   const showOverlay = isMobile ? autoShowOverlay : isHovered;
 
@@ -112,7 +115,7 @@ export function GalleryCard({
       {/* Image Container - Horizontal Card - Bigger */}
       <motion.div
         className="relative overflow-hidden rounded-2xl aspect-[4/3] bg-white dark:bg-gray-800 shadow-lg group-hover:shadow-2xl"
-        whileHover={{ shadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)' }}
+        whileHover={{ boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)' }}
         transition={{ duration: 0.3, ease: 'easeOut' }}
       >
         {/* Image - Clear and visible, fits inside card */}
@@ -121,7 +124,7 @@ export function GalleryCard({
           alt={title}
           className="w-full h-full object-contain brightness-100"
           initial={{ scale: 1 }}
-          whileHover={{ scale: 1.05, brightness: 1.1 }}
+          whileHover={{ scale: 1.05, filter: 'brightness(1.1)' }}
           transition={{
             type: 'spring',
             stiffness: 300,

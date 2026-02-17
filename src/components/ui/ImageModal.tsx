@@ -7,7 +7,6 @@ interface ImageModalProps {
   onClose: () => void;
   image: string;
   title: string;
-  description: string;
 }
 
 export function ImageModal({
@@ -15,7 +14,6 @@ export function ImageModal({
   onClose,
   image,
   title,
-  description,
 }: ImageModalProps) {
   useEffect(() => {
     if (isOpen) {

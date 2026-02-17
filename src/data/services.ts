@@ -1,5 +1,5 @@
 import type { LucideIcon } from 'lucide-react';
-import { Code2, Lightbulb, MonitorPlay } from 'lucide-react';
+import { Code2 } from 'lucide-react';
 
 export interface ServiceItem {
   icon: LucideIcon;

@@ -13,11 +13,13 @@ import {
   SiSocketdotio,
   SiStripe,
   SiAppwrite,
-  SiHtml5,
   SiCss3,
   SiExpress,
   SiRedis,
   SiDocker,
+  SiNestjs,
+  SiHandlebarsdotjs,
+  SiHtml5,
 } from 'react-icons/si';
 
 export interface TechStackItem {
@@ -53,14 +55,14 @@ export interface ProjectItem {
 
 export const projects: ProjectItem[] = [
   {
-    title: 'Personal Portfolio',
+    title: 'my-portfolio-nextjs',
     description:
       'My portfolio website, showcasing my professional background and more. Clean, responsive, and shows off my work while keeping things simple and professional.',
-    image: '/assets/img/portfolio.png',
-    link: 'https://abdulvahabaaa.in/',
+    image: '/public/assets/img/portfolio.png',
+    link: 'https://adhilunnikrisnan.vercel.app/',
     github: 'https://github.com/adhilunnikrishnan/react-ts-personal-portfolio',
     techStack: [
-      { icon: SiHtml5, name: 'HTML', color: '#e34c26' },
+      { icon: SiNestjs, name: 'Nest.js', color: '#e34c26' },
       { icon: SiCss3, name: 'CSS', color: '#264de4' },
       techStacks.react,
       techStacks.tailwind,
@@ -68,12 +70,12 @@ export const projects: ProjectItem[] = [
     ],
   },
   {
-    title: 'Node-Mongoose-JWT-APIs-TS',
+    title: 'node-rest-api-typescript',
     description:
       'Production-grade REST API built with Node.js, TypeScript, Express, MongoDB, Redis and Docker. Includes Jest, Supertest, test Coverage and Docker Compose.',
     image: '/assets/img/Backend API.png',
     link: '',
-    github: 'https://github.com/adhilunnikrishnan/Node-Mongoose-JWT-APIs-TS',
+    github: 'https://github.com/adhilunnikrishnan/node-rest-api-typescript',
     techStack: [
       techStacks.node,
       { icon: SiExpress, name: 'Express', color: '#000' },
@@ -84,18 +86,18 @@ export const projects: ProjectItem[] = [
     ],
   },
   {
-    title: 'Modern Portfolio',
+    title: 'Moonlight Reads',
     description:
-      'This is a modern developer portfolio. Designed with a clean UI/UX, smooth animations, and dynamic content. it is fully responsive and optimized for performance.',
-    image: '/assets/img/modern-portfolio.png',
-    link: 'https://modern-portfolio-eta-eight.vercel.app/',
-    github: 'https://github.com/adhilunnikrishnan/modern-portfolio',
+      'A modern online bookstore where readers can explore and order books with ease.while admins efficiently manage books, users, and orders behind the scenes.',
+    image: '/assets/img/image.png',
+    link: 'https://moonlight-reads.onrender.com/',
+    github: 'https://github.com/adhilunnikrishnan/Moonlight-Reads-Ecommerce-WebApp',
     techStack: [
-      techStacks.next,
-      techStacks.react,
-      techStacks.typescript,
-      techStacks.tailwind,
-      techStacks.framer,
+      techStacks.node,
+      { icon: SiExpress, name: 'Express', color: '#000' },
+      techStacks.mongodb,
+            { icon: SiHandlebarsdotjs, name: 'Handlebars.js', color: '#000' },
+             { icon: SiHtml5, name: 'HTML5', color: '#e34c26' }
     ],
   },
 ];

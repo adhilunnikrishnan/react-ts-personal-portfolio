@@ -25,30 +25,30 @@ interface UserProfile {
 
 const SPECIFIC_REPOS: Repo[] = [
   {
-    name: 'Node-Mongoose-JWT-APIs-TS',
+    name: 'node-rest-api-typescript',
     description:
       'Production-grade REST API built with Node.js, TypeScript, Express, MongoDB, Redis and Docker. Includes Jest, Supertest, test Coverage and Docker Compose.',
-    stars: 12,
+    stars: 0,
     forks: 0,
     language: 'Node.js, TypeScript',
-    html_url: 'https://github.com/adhilunnikrishnan/Node-Mongoose-JWT-APIs-TS',
+    html_url: 'https://github.com/adhilunnikrishnan/node-rest-api-typescript',
   },
   {
     name: 'react-ts-personal-portfolio',
     description:
       'My personal developer portfolio built with React and TypeScript. Features a component-driven architecture, optimized performance, and modern UI design principles.',
-    stars: 76,
-    forks: 1,
+    stars: 0,
+    forks: 0,
     language: 'React.js, TypeScript',
     html_url: 'https://github.com/adhilunnikrishnan/react-ts-personal-portfolio',
   },
   {
-    name: 'modern-portfolio',
+    name: 'Moonlight-Reads-Ecommerce-WebApp',
     description:
-      'This is a modern developer portfolio. Designed with a clean UI/UX, smooth animations, and dynamic content. it is fully responsive and optimized for performance.',
-    stars: 12,
-    forks: 1,
-    language: 'Next.js, TypeScript',
+      'Moonlight Reads is designed to offer a modern online bookstore experience for passionate readers. Users can explore a vast collection of books, add favorites to their wishlist, manage their cart, and place orders effortlessly. Admins can efficiently manage books, users, and orders to ensure a smooth and enjoyable reading journey for every customer.',
+    stars: 0,
+    forks: 0,
+    language: 'node.js, Handlebars, mongoDB',
     html_url: 'https://github.com/adhilunnikrishnan/modern-portfolio',
   },
 ];

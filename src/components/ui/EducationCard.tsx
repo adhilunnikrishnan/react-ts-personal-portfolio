@@ -4,7 +4,7 @@ interface EducationCardProps {
   degree: string;
   institution: string;
   period: string;
-  score: string;
+   Stream: string;
   isLast: boolean;
 }
 
@@ -12,7 +12,7 @@ export function EducationCard({
   degree,
   institution,
   period,
-  score,
+   Stream,
   isLast,
 }: EducationCardProps) {
   return (
@@ -39,10 +39,10 @@ export function EducationCard({
               <span className="text-sm">{period}</span>
             </div>
 
-            {/* Score */}
+            {/*  Stream */}
             <div className="flex items-center gap-1 text-gray-600 dark:text-gray-400">
               <Award className="w-4 h-4" />
-              <span className="text-sm">Score: {score}</span>
+              <span className="text-sm"> Stream: { Stream}</span>
             </div>
           </div>
         </div>

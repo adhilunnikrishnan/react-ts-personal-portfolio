@@ -3,15 +3,6 @@ import { SectionBackground } from './ui/SectionBackground';
 
 const badges = [
   // {
-  //   id: 'Certified-Ethical-Hacker',
-  //   platform: 'EC-Council',
-  //   title: 'Certified Ethical Hacker',
-  //   image: '/assets/logos/CEH_2E345519D3F7.png',
-  //   profile:
-  //     'https://www.credly.com/badges/acc5fa97-0b4e-47c2-bc59-30e2d2a0161a/public_url',
-  // },
-
-  // {
   //   id: 'github-foundations',
   //   platform: 'GitHub',
   //   title: 'GitHub Foundations',
@@ -90,14 +81,6 @@ const badges = [
       'https://github.githubassets.com/assets/quickdraw-default--light-8f798b35341a.png',
     profile: 'https://github.com/adhilunnikrishnan',
   },
-  // {
-  //   id: 'github-galaxy-star',
-  //   platform: 'GitHub',
-  //   title: 'Galaxy Brain',
-  //   image:
-  //     'https://github.githubassets.com/assets/galaxy-brain-default-847262c21056.png',
-  //   profile: 'https://github.com/abdulvahabaaa',
-  // },
 ];
 
 export function Badges() {

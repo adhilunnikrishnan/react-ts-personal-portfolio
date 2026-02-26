@@ -7,8 +7,8 @@ export function StructuredData() {
       '@context': 'https://schema.org',
       '@type': 'Person',
       name: 'Adhil Unnikrishnan P',
-      url: 'https://abdulvahabaa.in',
-      image: 'https://abdulvahabaa.in/assets/profile.png',
+      url: 'https://adhilunnikrishnan.in',
+      image: 'https://adhilunnikrishnan.in/assets/profile.png',
       jobTitle: 'Full Stack Developer',
       worksFor: {
         '@type': 'Organization',
@@ -71,7 +71,7 @@ export function StructuredData() {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
       name: 'Adhil Unnikrishnan P Portfolio',
-      url: 'https://abdulvahabaa.in',
+      url: 'https://adhilunnikrishnan.in',
       description:
         'Portfolio website of Adhil Unnikrishnan P - Full Stack Developer',
       author: {

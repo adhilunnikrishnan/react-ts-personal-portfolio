@@ -1,4 +1,4 @@
-# SEO Optimization Guide for abdulvahabaa.in
+# SEO Optimization Guide for adhilunnikrishnan.in
 
 ## ✅ What Has Been Implemented
 
@@ -46,9 +46,9 @@
 ### 1. **Google Search Console Setup**
 
 1. Go to [Google Search Console](https://search.google.com/search-console)
-2. Add your property: `https://abdulvahabaa.in`
+2. Add your property: `https://adhilunnikrishnan.in`
 3. Verify ownership (DNS record or HTML file)
-4. Submit your sitemap: `https://abdulvahabaa.in/sitemap.xml`
+4. Submit your sitemap: `https://adhilunnikrishnan.in/sitemap.xml`
 5. Request indexing for your homepage
 
 ### 2. **Google Analytics (Optional but Recommended)**
@@ -181,4 +181,4 @@ Feel free to ask or refer to Google's official SEO documentation.
 ---
 
 **Last Updated**: January 2025
-**Domain**: https://abdulvahabaa.in
+**Domain**: https://adhilunnikrishnan.in

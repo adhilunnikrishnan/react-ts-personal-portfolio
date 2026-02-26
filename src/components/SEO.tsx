@@ -11,8 +11,8 @@ interface SEOProps {
 export function SEO({
   title = 'Adhil Unnikrishnan P - Full Stack Developer | Portfolio',
   description = 'Full Stack Developer (MERN, MEAN, Nest.js) from Thrissur, Kerala. Specializing in React, Next.js, Node.js, Nest.js, TypeScript, MongoDB, and PostgreSQL.',
-  image = 'https://abdulvahabaa.in/assets/profile.png',
-  url = 'https://abdulvahabaa.in',
+  image = 'https://adhilunnikrishnan.in/assets/profile.png',
+  url = 'https://adhilunnikrishnan.in',
   type = 'website',
 }: SEOProps) {
   useEffect(() => {

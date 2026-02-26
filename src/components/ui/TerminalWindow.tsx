@@ -318,14 +318,6 @@ export function TerminalWindow() {
             <span className="flex items-center gap-2">
               <span className="text-cyan-400">→</span>{' '}
               <Typewriter
-                text="training developers in modern stack"
-                delay={100}
-                speed={5}
-              />
-            </span>
-            <span className="flex items-center gap-2">
-              <span className="text-cyan-400">→</span>{' '}
-              <Typewriter
                 text="solving real-world problems with code"
                 delay={150}
                 speed={5}
